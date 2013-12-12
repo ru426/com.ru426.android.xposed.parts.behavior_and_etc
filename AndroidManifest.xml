@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ru426.android.xposed.parts.behavior_and_etc"
+    android:installLocation="internalOnly"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+    <!-- android:sharedUserId="com.ru426.android.xposed.regxm" -->
+
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="18" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault" >
+        <activity
+            android:name=".Settings"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.ru426.android.xposed.intent.action.PLUGIN_SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="description" android:value="@string/app_desc" />
+            <meta-data android:name="category" android:value="@string/ru_category_behavior_and_etc" />
+        </activity>
+        <activity
+            android:name=".BehaviorAndEtcModule"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.ru426.android.xposed.intent.action.PLUGIN_MODULES" />
+            </intent-filter>
+            <meta-data android:name="targetpackagename" android:value="com.android.systemui" />
+        </activity>
+        
+       <receiver android:name=".ThemeChangedReceiver" >
+           <intent-filter>
+               <action android:name="com.ru426.android.xposed.intent.action.PLUGIN_THEME_SETTINGS_CHANGE" >
+               </action>
+           </intent-filter>
+       </receiver>
+       <provider android:name="com.ru426.android.xposed.parts.behavior_and_etc.util.ModDbProvider" android:authorities="com.ru426.android.xposed.parts.behavior_and_etc.dbprovider" android:exported="true" android:multiprocess="true" />
+
+    </application>
+
+</manifest>

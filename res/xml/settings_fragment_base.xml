@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.ru426.android.xposed.gxmod_extender"
+    xmlns:xSeekBarPreferece="http://schemas.android.com/apk/res/com.ru426.android.xposed.gxmod_extender" >
+
+    <PreferenceCategory
+        android:summary="@string/behavior_and_etc_settings_summary"
+        android:title="@string/behavior_and_etc_settings_title" >
+        <CheckBoxPreference
+            android:key="@string/is_hook_lower_actionbar_key"
+            android:summary="@string/is_hook_lower_actionbar_summary"
+            android:title="@string/is_hook_lower_actionbar_title" />
+        <CheckBoxPreference
+            android:key="@string/is_hook_disable_scrolling_cache_key"
+            android:summary="@string/is_hook_disable_scrolling_cache_summary"
+            android:title="@string/is_hook_disable_scrolling_cache_title" />
+        <CheckBoxPreference
+            android:key="@string/is_hook_led_off_battery_full_key"
+            android:summary="@string/is_hook_led_off_battery_full_summary"
+            android:title="@string/is_hook_led_off_battery_full_title" />
+        <CheckBoxPreference
+            android:key="@string/is_hook_screenshot_sound_off_key"
+            android:summary="@string/is_hook_screenshot_sound_off_summary"
+            android:title="@string/is_hook_screenshot_sound_off_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Behavior and Etc</string>
+    <string name="app_desc">Change some behavior and more</string>
+    
+    <string name="behavior_and_etc_settings_title">Behavior and Etc</string>
+    <string name="behavior_and_etc_settings_summary">Behavior and Etc Settings</string>
+    
+    <string name="is_hook_lower_actionbar_key">IsHookLowerActionBarKey</string>
+    <string name="is_hook_lower_actionbar_title">Lower ActionBar</string>
+    <string name="is_hook_lower_actionbar_summary">Move the action bar low\n(need to restart device)</string>
+    
+    <string name="is_hook_disable_scrolling_cache_key">IsHookDisableScrollingCacheKey</string>
+    <string name="is_hook_disable_scrolling_cache_title">Disable scrolling cache</string>
+    <string name="is_hook_disable_scrolling_cache_summary">Smooth scrolling by default disabled scrolling cache\n(need to restart device)</string>
+    
+    <string name="is_hook_led_off_battery_full_key">IsHookLedOffBatteryFullKey</string>
+    <string name="is_hook_led_off_battery_full_title">LED off when battery full</string>
+    <string name="is_hook_led_off_battery_full_summary">Turn off LED when battery fully charged\n(need to restart device)</string>
+    
+    <string name="is_hook_screenshot_sound_off_key">IsHookScreenshotSoundOffKey</string>
+    <string name="is_hook_screenshot_sound_off_title">Screenshot sound off</string>
+    <string name="is_hook_screenshot_sound_off_summary">Turn the screenshot sound off</string>
+</resources>

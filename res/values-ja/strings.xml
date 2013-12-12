@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UI・その他関連</string>
+    <string name="app_desc">アプリケーション・UIの挙動設定の変更をします</string>
+    
+    <string name="behavior_and_etc_settings_title">UI・その他関連</string>
+    <string name="behavior_and_etc_settings_summary">UI・その他関連 設定</string>
+    
+    <string name="is_hook_lower_actionbar_key">IsHookLowerActionBarKey</string>
+    <string name="is_hook_lower_actionbar_title">アクションバー下部表示</string>
+    <string name="is_hook_lower_actionbar_summary">アクションバーを下部に表示する\n(端末の再起動が必要です)</string>
+    
+    <string name="is_hook_disable_scrolling_cache_key">IsHookDisableScrollingCacheKey</string>
+    <string name="is_hook_disable_scrolling_cache_title">スクロールキャッシュ無効</string>
+    <string name="is_hook_disable_scrolling_cache_summary">デフォルトのスクロールキャッシュを無効化し、スクロールを滑らかにする\n(端末の再起動が必要です)</string>
+    
+    <string name="is_hook_led_off_battery_full_key">IsHookLedOffBatteryFullKey</string>
+    <string name="is_hook_led_off_battery_full_title">満充電でLED消灯</string>
+    <string name="is_hook_led_off_battery_full_summary">充電が完了したらLEDを消灯する\n(端末の再起動が必要です)</string>
+    
+    <string name="is_hook_screenshot_sound_off_key">IsHookScreenshotSoundOffKey</string>
+    <string name="is_hook_screenshot_sound_off_title">スクリーンショット消音</string>
+    <string name="is_hook_screenshot_sound_off_summary">スクリーンショット時のシャッター音を再生しないようにする</string>
+    
+</resources>
